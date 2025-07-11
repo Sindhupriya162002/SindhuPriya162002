@@ -1,0 +1,157 @@
+@media only screen and (max-width: 640px) {
+       .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .toggle-menu:checked ~ .nav-links {
+    max-height: 300px;
+    padding-bottom: 10px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+
+
+  .hero-section {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .hero-text {
+    padding: 20px;
+    max-width: 100%;
+    border-left: none;
+    border-top: 6px solid darkred;
+    text-align: center;
+    box-shadow: none;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+	color:darkred;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: none;
+  }
+}
+  .well-section {
+    padding: 20px;
+    margin: 30px 10px;
+  }
+
+  .well-section h2 {
+    font-size: 24px;
+  }
+
+  .well-section p {
+    font-size: 16px;
+  }
+
+  .habit-section {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .habit-image img {
+    width: 100%;
+  }
+
+  .habit-content {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .habit-content h2 {
+    font-size: 22px;
+  }
+
+  .habit-content p {
+    font-size: 16px;
+  }
+
+  .habit-link {
+    font-size: 14px;
+  }
+
+  .card-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card img {
+    height: auto;
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-links div {
+    margin-bottom: 20px;
+  }
+
+  .footer-links a {
+    right: 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  .footer-bottom .policies a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

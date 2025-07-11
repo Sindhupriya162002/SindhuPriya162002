@@ -1,0 +1,543 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar img {
+  height: 50px;
+  width: auto;
+}
+
+/* Hide the checkbox */
+#toggle-menu {
+  display: none;
+}
+
+/* Hamburger icon */
+.icons {
+  display: none;
+  position:absolute;
+  right:0;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Desktop nav links */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #b40017;
+}
+.logo{
+	font-size:16px;
+}
+.logo:hover{
+	color:darkred;
+	
+	
+	
+}
+	
+.hero-section {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .hero-text {
+    padding: 20px;
+    max-width: 100%;
+    border-left: none;
+    border-top: 6px solid darkred;
+    text-align: center;
+    box-shadow: none;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+	color:darkred;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: none;
+  }
+
+
+
+.well-section {
+  border: 8px solid #2f5e32; /* green border */
+  padding: 50px;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  overflow: hidden;
+  word-wrap: break-word;
+  border-radius: 8px;
+}
+
+.well-section h2 {
+  font-size: 33px;
+  color: #111;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.well-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+}
+.habit-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap; /* makes it responsive on small screens */
+}
+
+.habit-image img {
+  max-width: 100%;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.habit-content {
+  max-width: 600px;
+}
+
+.habit-content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.habit-content p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.habit-link {
+  color: #b40017;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.habit-link:hover {
+  text-decoration: underline;
+}
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.card {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #222;
+  margin-top: 12px;
+}
+.site-footer {
+  color: black;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+}
+
+.footer-left {
+  flex: 1 1 250px;
+}
+
+.footer-left h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-left a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.social-icons {
+	gap:10px;
+  
+}
+
+.footer-links {
+  display: flex;
+  flex: 2 1 600px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+ 
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffffff30;
+  margin-top: 30px;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+  max-width: 1200px;
+  margin: 30px auto 0;
+}
+
+.footer-bottom .policies a {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-bottom .policies a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  /* Navbar */
+  .icons {
+    display: block;
+    position: relative;
+    right: 10px;
+    top: 5px;
+    font-size: 26px;
+    z-index: 2000;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  #toggle-menu:checked ~ .nav-links {
+    max-height: 500px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-links li {
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Well Section */
+  .well-section {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .well-section h2 {
+    font-size: 24px;
+  }
+
+  .well-section p {
+    font-size: 16px;
+  }
+
+  /* Habit Section */
+  .habit-section {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .habit-content h2 {
+    font-size: 22px;
+  }
+
+  .habit-content p {
+    font-size: 16px;
+  }
+
+  /* Card Section */
+  .card-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .card img {
+    height: auto;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .footer-left h2 {
+    font-size: 20px;
+  }
+
+  .footer-left p,
+  .footer-links li {
+    font-size: 14px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;
+    gap: 10px;
+    padding: 15px 20px;
+  }
+
+  .footer-bottom .policies a {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  /* Navbar */
+  .navbar {
+    padding: 15px 25px;
+  }
+
+  .navbar img {
+    height: 45px;
+  }
+
+  .nav-links {
+    gap: 18px;
+  }
+
+  .nav-links li a {
+    font-size: 17px;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Well Section */
+  .well-section {
+    padding: 40px 25px;
+    margin: 30px auto;
+    max-width: 95%;
+  }
+
+  .well-section h2 {
+    font-size: 28px;
+  }
+
+  .well-section p {
+    font-size: 17px;
+  }
+
+  /* Habit Section */
+  .habit-section {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .habit-content h2 {
+    font-size: 24px;
+  }
+
+  .habit-content p {
+    font-size: 17px;
+  }
+
+  /* Cards */
+  .card-section {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 30px 20px;
+    gap: 25px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer-left h2 {
+    font-size: 22px;
+  }
+
+  .footer-left p,
+  .footer-links li {
+    font-size: 15px;
+  }
+
+  .footer-links {
+    gap: 25px;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .footer-bottom .policies a {
+    margin-left: 15px;
+  }
+}
